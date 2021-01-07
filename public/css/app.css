@@ -392,3 +392,85 @@ h6 {
   font-family: "Open Sans Condensed", sans-serif;
 }
 
+.container {
+  max-width: 1280px;
+  margin: auto;
+}
+
+.container::after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+.menu {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+a {
+  text-decoration: none;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.header-top {
+  background-color: #1482f9;
+  text-align: right;
+  padding: 4px;
+}
+
+.header-top a {
+  color: #ffffff;
+  font-size: 12px;
+}
+
+.header-top a:last-child {
+  padding-left: 60px;
+}
+
+.header-bottom {
+  border-bottom: 1px solid #ebebeb;
+}
+
+.header-bottom .navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-bottom .navbar .logo {
+  height: 80px;
+}
+
+.header-bottom .navbar .logo img {
+  height: 100%;
+}
+
+.header-bottom .navbar ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.header-bottom .navbar ul li {
+  display: inline-block;
+  padding: 0 15px;
+}
+
+.header-bottom .navbar ul li a {
+  color: #303030;
+  font-family: "Open Sans Condensed", sans-serif;
+  display: inline-block;
+  line-height: 112px;
+}
+
+.header-bottom .navbar ul li a:hover,
+.header-bottom .navbar ul li a.active {
+  color: #1482f9;
+  border-bottom: 5px solid #1482f9;
+}
+

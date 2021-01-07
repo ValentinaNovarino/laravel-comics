@@ -5,3 +5,28 @@ body {
 h1, h2, h3, h4, h5, h6 {
     font-family: $fontTitle;
 }
+
+.container {
+    max-width: 1280px;
+    margin: auto;
+}
+
+.container::after {
+    clear: both;
+    content: '';
+    display: table;
+}
+
+.menu {
+    clear: both;
+    content: '';
+    display: table;
+}
+
+a {
+    text-decoration: none;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
