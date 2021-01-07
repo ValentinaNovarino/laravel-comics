@@ -474,3 +474,82 @@ a {
   border-bottom: 5px solid #1482f9;
 }
 
+.footer-top {
+  background-image: url("https://www.dccomics.com/sites/all/themes/dc_comics_bp/images/footer-bg.jpg");
+}
+
+.footer-top h2 {
+  color: white;
+}
+
+.footer-top ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer-top ul a {
+  color: #959595;
+  line-height: 25px;
+  font-size: 14px;
+}
+
+.footer-top::after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+.footer-menu-left,
+.footer-menu-center,
+.footer-menu-right {
+  float: left;
+  width: 180px;
+}
+
+.footer-bottom {
+  padding: 30px;
+  background-color: #303030;
+  justify-content: space-between;
+}
+
+.footer-bottom .sign-up {
+  float: left;
+  width: 50%;
+}
+
+.footer-bottom .sign-up button {
+  padding: 10px;
+  border: 2px solid #1482f9;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.footer-bottom .sign-up button a {
+  color: white;
+}
+
+.footer-bottom .social {
+  float: left;
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.footer-bottom .social span {
+  color: #1482f9;
+  font-family: "Open Sans Condensed", sans-serif;
+  font-size: 20px;
+  padding-right: 20px;
+}
+
+.footer-bottom .social img {
+  padding: 0 10px;
+}
+
+.footer-bottom::after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
