@@ -1,6 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
+    @include('partials.jumbotron')
     <section id="series">
         <div class="container">
             <div class="section-title">

@@ -417,6 +417,21 @@ a {
   text-transform: uppercase;
 }
 
+.jumbotron {
+  background-image: url("/images/jumbotron.jpg");
+  padding: 200px 0;
+}
+
+.section-title h2 {
+  margin: 0;
+  background-color: #1482f9;
+  color: #ffffff;
+  display: inline-block;
+  font-size: 30px;
+  padding: 10px 30px;
+  transform: translateY(-50%);
+}
+
 .header-top {
   background-color: #1482f9;
   text-align: right;
@@ -507,6 +522,11 @@ a {
 
 #series .card-container .card .card-title {
   padding-top: 20px;
+}
+
+#series .card-container .card .card-title span {
+  font-size: 14px;
+  font-weight: 600;
 }
 
 .footer-top {

@@ -30,3 +30,18 @@ a {
 .uppercase {
     text-transform: uppercase;
 }
+
+.jumbotron {
+    background-image: url('/images/jumbotron.jpg');
+    padding: 200px 0;
+}
+
+.section-title h2 {
+    margin: 0;
+    background-color: $mainColor;
+    color: $darkSectionTextColor;
+    display: inline-block;
+    font-size: 30px;
+    padding: 10px 30px;
+    transform: translateY(-50%);
+}
