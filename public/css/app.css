@@ -474,6 +474,41 @@ a {
   border-bottom: 5px solid #1482f9;
 }
 
+#series {
+  background-color: #1c1c1c;
+  color: #ffffff;
+}
+
+#series .card-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+#series .card-container .card {
+  flex-basis: 185px;
+  margin-bottom: 40px;
+}
+
+#series .card-container .card .card-img {
+  width: 185px;
+  height: 185px;
+}
+
+#series .card-container .card .card-img img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: top;
+     object-position: top;
+}
+
+#series .card-container .card .card-title {
+  padding-top: 20px;
+}
+
 .footer-top {
   background-image: url("/images/footer-bg.jpg");
   background-size: cover;

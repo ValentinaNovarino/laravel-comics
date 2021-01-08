@@ -1,0 +1,34 @@
+#series {
+    background-color: $darkSectionBgColor;
+    color: $darkSectionTextColor;
+
+    .card-container {
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-start;
+        flex-wrap: wrap;
+
+        .card {
+            flex-basis: 185px;
+            margin-bottom: 40px;
+
+            .card-img {
+                width: 185px;
+                height: 185px;
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                    object-position: top;
+                }
+            }
+
+            .card-title {
+                padding-top: 20px;
+            }
+
+
+        }
+    }
+}
