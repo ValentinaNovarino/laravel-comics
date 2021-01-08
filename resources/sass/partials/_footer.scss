@@ -1,17 +1,27 @@
 .footer-top {
-    background-image: url('https://www.dccomics.com/sites/all/themes/dc_comics_bp/images/footer-bg.jpg');
+    background-image: url('/images/footer-bg.jpg');
+    background-size: cover;
 
-    h2 {
-        color: white;
-    }
-    ul {
-        list-style-type: none;
-        padding: 0;
+    .footer-menu {
+        width: 100%;
+        background-image: url('/images/dc-logo-bg.png');
 
-        a {
-            color: #959595;
-            line-height: 25px;
-            font-size: 14px;
+        h2 {
+            color: white;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+
+            a {
+                color: #959595;
+                line-height: 25px;
+                font-size: 12px;
+
+                &:hover {
+                    color: $mainColor;
+                }
+            }
         }
     }
 }
@@ -46,6 +56,9 @@
                 color: white;
             }
 
+            &:hover {
+                background-color: $mainColor;
+            }
         }
     }
 
@@ -63,9 +76,21 @@
             padding-right: 20px;
         }
 
-        img {
-            padding: 0 10px;
+        @each $icon in $footerSocial {
+            li.#{$icon} {
+                background-image: url('/images/footer-#{$icon}.png');
+                background-repeat: no-repeat;
+                background-size: contain;
+                display: inline-block;
+            }
+
+            a {
+                width: 35px;
+                height: 35px;
+                display: inline-block;
+            }
         }
+
     }
 }
 

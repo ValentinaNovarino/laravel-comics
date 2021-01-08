@@ -475,22 +475,32 @@ a {
 }
 
 .footer-top {
-  background-image: url("https://www.dccomics.com/sites/all/themes/dc_comics_bp/images/footer-bg.jpg");
+  background-image: url("/images/footer-bg.jpg");
+  background-size: cover;
 }
 
-.footer-top h2 {
+.footer-top .footer-menu {
+  width: 100%;
+  background-image: url("/images/dc-logo-bg.png");
+}
+
+.footer-top .footer-menu h2 {
   color: white;
 }
 
-.footer-top ul {
+.footer-top .footer-menu ul {
   list-style-type: none;
   padding: 0;
 }
 
-.footer-top ul a {
+.footer-top .footer-menu ul a {
   color: #959595;
   line-height: 25px;
-  font-size: 14px;
+  font-size: 12px;
+}
+
+.footer-top .footer-menu ul a:hover {
+  color: #1482f9;
 }
 
 .footer-top::after {
@@ -528,6 +538,10 @@ a {
   color: white;
 }
 
+.footer-bottom .sign-up button:hover {
+  background-color: #1482f9;
+}
+
 .footer-bottom .social {
   float: left;
   width: 50%;
@@ -543,8 +557,69 @@ a {
   padding-right: 20px;
 }
 
-.footer-bottom .social img {
-  padding: 0 10px;
+.footer-bottom .social li.facebook {
+  background-image: url("/images/footer-facebook.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: inline-block;
+}
+
+.footer-bottom .social a {
+  width: 35px;
+  height: 35px;
+  display: inline-block;
+}
+
+.footer-bottom .social li.twitter {
+  background-image: url("/images/footer-twitter.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: inline-block;
+}
+
+.footer-bottom .social a {
+  width: 35px;
+  height: 35px;
+  display: inline-block;
+}
+
+.footer-bottom .social li.youtube {
+  background-image: url("/images/footer-youtube.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: inline-block;
+}
+
+.footer-bottom .social a {
+  width: 35px;
+  height: 35px;
+  display: inline-block;
+}
+
+.footer-bottom .social li.pinterest {
+  background-image: url("/images/footer-pinterest.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: inline-block;
+}
+
+.footer-bottom .social a {
+  width: 35px;
+  height: 35px;
+  display: inline-block;
+}
+
+.footer-bottom .social li.periscope {
+  background-image: url("/images/footer-periscope.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: inline-block;
+}
+
+.footer-bottom .social a {
+  width: 35px;
+  height: 35px;
+  display: inline-block;
 }
 
 .footer-bottom::after {
