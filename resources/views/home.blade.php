@@ -8,8 +8,9 @@
                 <h2 class="uppercase">curent series</h2>
             </div>
             <div class="card-container">
-                @foreach ($series as $element)
+                @foreach ($series as $index => $element)
                     <div class="card">
+                        <a href="{{ route('details', ['id' => $index]) }}">
                         <div class="card-img">
                             <img src="{{ $element['thumb']}}" alt="{{ $element['series']}}">
                         </div>

@@ -19,13 +19,13 @@ Route::get('/', function () {
         'series' => $comics
     ];
     return view('home', $data);
-});
+})->name('homepage');
 
 Route::get('/comic/{id}', function($id) {
     // recupero fumetti
-    $comic = config('comics');
+    $comics = config('comics');
     // verifico che l'id è una chiave
-    if(array_key_exists($id, $comic)) {
+    if(array_key_exists($id, $comics)) {
         $fumetto = $comics[$id];
         $data = [
             'comic' => $fumetto
@@ -33,4 +33,4 @@ Route::get('/comic/{id}', function($id) {
         return view('details', $data);
     }
     abort(404);
-});
+})->name('details');
