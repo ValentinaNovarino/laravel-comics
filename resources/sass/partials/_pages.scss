@@ -51,11 +51,11 @@
         .thumb-wrapper {
             position: absolute;
             bottom: 20px;
-            border: 1px solid #ffffff;
+            border: 1px solid $darkSectionTextColor;
 
             span {
                position: absolute;
-               color: #ffffff;
+               color: $darkSectionTextColor;
                font-weight: 600;
                font-size: 14px;
                padding: 3px;
@@ -79,5 +79,59 @@
                 display: block;
             }
         }
+    }
+}
+
+#info {
+    .comic-info {
+        width: 70%;
+        float: left;
+
+        h1 {
+            color: $infoTitleColor;
+        }
+
+        .availability-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: nowrap;
+            background-color: #55ba59;
+            border-bottom: 1px solid #357739;
+            font-weight: 600;
+
+            .price, .availability, .check {
+                padding: 15px;
+            }
+
+            .price {
+                flex-grow: 2;
+            }
+
+            .availability {
+                border-right: 1px solid #357739;
+            }
+
+            .price, .availability {
+                color: #bafd9c;
+            }
+
+            .comic-price, .check {
+                color: $darkSectionTextColor;
+            }
+        }
+
+        .comic-description {
+            color: #5e5e5e;
+            line-height: 1.7;
+            font-weight: 600;
+            margin-top: 30px;
+        }
+    }
+    .comic-adv {
+        width: calc(30% - 15px);
+        margin-left: 15px;
+        float: left;
+        text-align: right;
     }
 }

@@ -586,6 +586,63 @@ a {
   display: block;
 }
 
+#info .comic-info {
+  width: 70%;
+  float: left;
+}
+
+#info .comic-info h1 {
+  color: #133f5e;
+}
+
+#info .comic-info .availability-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  background-color: #55ba59;
+  border-bottom: 1px solid #357739;
+  font-weight: 600;
+}
+
+#info .comic-info .availability-container .price,
+#info .comic-info .availability-container .availability,
+#info .comic-info .availability-container .check {
+  padding: 15px;
+}
+
+#info .comic-info .availability-container .price {
+  flex-grow: 2;
+}
+
+#info .comic-info .availability-container .availability {
+  border-right: 1px solid #357739;
+}
+
+#info .comic-info .availability-container .price,
+#info .comic-info .availability-container .availability {
+  color: #bafd9c;
+}
+
+#info .comic-info .availability-container .comic-price,
+#info .comic-info .availability-container .check {
+  color: #ffffff;
+}
+
+#info .comic-info .comic-description {
+  color: #5e5e5e;
+  line-height: 1.7;
+  font-weight: 600;
+  margin-top: 30px;
+}
+
+#info .comic-adv {
+  width: calc(30% - 15px);
+  margin-left: 15px;
+  float: left;
+  text-align: right;
+}
+
 .footer-top {
   background-image: url("/images/footer-bg.jpg");
   background-size: cover;
