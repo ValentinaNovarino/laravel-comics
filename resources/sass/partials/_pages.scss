@@ -1,6 +1,7 @@
 #series {
     background-color: $darkSectionBgColor;
     color: $darkSectionTextColor;
+    padding-bottom: 20px;
 
     .card-container {
         display: flex;
@@ -138,8 +139,8 @@
 
 #details {
     background-color: #f6f6f6;
-    border-top: 1px solid #ebebeb;
-    border-bottom: 1px solid #ebebeb;
+    border-top: 1px solid $borderColor;
+    border-bottom: 1px solid $borderColor;
     padding: 25px 0;
 
     .talent, .specs {
@@ -161,7 +162,7 @@
                 font-weight: 600;
 
                 &:last-child {
-                    border-bottom: 1px solid #ebebeb;
+                    border-bottom: 1px solid $borderColor;
                 }
 
                 span:first-child {
@@ -193,28 +194,28 @@
 
 #pane-shop {
     background-color: #F6F6F6;
-    border-top: 1px solid #ebebeb;
-    border-bottom: 1px solid #ebebeb;
+    border-top: 1px solid $borderColor;
+    border-bottom: 1px solid $borderColor;
 
     .icon-box-container {
         display: flex;
 
         .icon-box {
-            border-left: 1px solid #ebebeb;
+            border-left: 1px solid $borderColor;
             width: 254px;
             flex-grow: 1;
             padding: 10px;
 
             &:hover {
-                background-color: #ebebeb;
+                background-color: $borderColor;
             }
 
-            a {
-                color: #959595;
+            &:hover span {
+                color: $infoTitleColor;
             }
 
             &:last-child {
-                border-right: 1px solid #ebebeb;
+                border-right: 1px solid $borderColor;
             }
 
             a {
@@ -225,7 +226,7 @@
                 font-family: $fontTitle;
             }
 
-            .icon-box-image {
+            .box-image {
                 background-image: url('/images/cta-icons.png');
                 display: inline-block;
                 width: $iconBoxImageSize;
@@ -234,11 +235,11 @@
 
             @for $i from 0 through 3 {
                 &:nth-child(#{$i + 1}){
-                    .icon-box-image {
+                    .box-image {
                         background-position: $iconBoxImageSize * $i 0;
                     }
 
-                    &:hover .icon-box-image {
+                    &:hover .box-image {
                         background-position: $iconBoxImageSize * $i $iconBoxImageSize;
                     }
                 }

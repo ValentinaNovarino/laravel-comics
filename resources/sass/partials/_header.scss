@@ -4,7 +4,7 @@
     padding: 4px;
 
     a {
-        color: #ffffff;
+        color: $darkSectionTextColor;
         font-size: 12px;
 
         &:last-child {
@@ -14,7 +14,7 @@
 }
 
 .header-bottom {
-    border-bottom: 1px solid #ebebeb;
+    border-bottom: 1px solid $borderColor;
     .navbar {
         display: flex;
         justify-content: space-between;

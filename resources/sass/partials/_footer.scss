@@ -7,7 +7,7 @@
         background-image: url('/images/dc-logo-bg.png');
 
         h2 {
-            color: white;
+            color: $darkSectionTextColor;
         }
         ul {
             list-style-type: none;
@@ -39,7 +39,7 @@
 
 .footer-bottom {
     padding: 30px;
-    background-color: #303030;
+    background-color: $navTextColor;
     justify-content: space-between;
 
     .sign-up {
@@ -53,7 +53,7 @@
             cursor: pointer;
 
             a {
-                color: white;
+                color: $darkSectionTextColor;
             }
 
             &:hover {

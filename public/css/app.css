@@ -504,6 +504,7 @@ a {
 #series {
   background-color: #1c1c1c;
   color: #ffffff;
+  padding-bottom: 20px;
 }
 
 #series .card-container {
@@ -730,8 +731,8 @@ a {
   background-color: #ebebeb;
 }
 
-#pane-shop .icon-box-container .icon-box a {
-  color: #959595;
+#pane-shop .icon-box-container .icon-box:hover span {
+  color: #133f5e;
 }
 
 #pane-shop .icon-box-container .icon-box:last-child {
@@ -746,42 +747,42 @@ a {
   font-family: "Open Sans Condensed", sans-serif;
 }
 
-#pane-shop .icon-box-container .icon-box .icon-box-image {
+#pane-shop .icon-box-container .icon-box .box-image {
   background-image: url("/images/cta-icons.png");
   display: inline-block;
   width: 37px;
   height: 37px;
 }
 
-#pane-shop .icon-box-container .icon-box:nth-child(1) .icon-box-image {
+#pane-shop .icon-box-container .icon-box:nth-child(1) .box-image {
   background-position: 0px 0;
 }
 
-#pane-shop .icon-box-container .icon-box:nth-child(1):hover .icon-box-image {
+#pane-shop .icon-box-container .icon-box:nth-child(1):hover .box-image {
   background-position: 0px 37px;
 }
 
-#pane-shop .icon-box-container .icon-box:nth-child(2) .icon-box-image {
+#pane-shop .icon-box-container .icon-box:nth-child(2) .box-image {
   background-position: 37px 0;
 }
 
-#pane-shop .icon-box-container .icon-box:nth-child(2):hover .icon-box-image {
+#pane-shop .icon-box-container .icon-box:nth-child(2):hover .box-image {
   background-position: 37px 37px;
 }
 
-#pane-shop .icon-box-container .icon-box:nth-child(3) .icon-box-image {
+#pane-shop .icon-box-container .icon-box:nth-child(3) .box-image {
   background-position: 74px 0;
 }
 
-#pane-shop .icon-box-container .icon-box:nth-child(3):hover .icon-box-image {
+#pane-shop .icon-box-container .icon-box:nth-child(3):hover .box-image {
   background-position: 74px 37px;
 }
 
-#pane-shop .icon-box-container .icon-box:nth-child(4) .icon-box-image {
+#pane-shop .icon-box-container .icon-box:nth-child(4) .box-image {
   background-position: 111px 0;
 }
 
-#pane-shop .icon-box-container .icon-box:nth-child(4):hover .icon-box-image {
+#pane-shop .icon-box-container .icon-box:nth-child(4):hover .box-image {
   background-position: 111px 37px;
 }
 
@@ -796,7 +797,7 @@ a {
 }
 
 .footer-top .footer-menu h2 {
-  color: white;
+  color: #ffffff;
 }
 
 .footer-top .footer-menu ul {
@@ -846,7 +847,7 @@ a {
 }
 
 .footer-bottom .sign-up button a {
-  color: white;
+  color: #ffffff;
 }
 
 .footer-bottom .sign-up button:hover {

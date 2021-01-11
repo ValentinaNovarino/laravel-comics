@@ -94,26 +94,26 @@
             <div class="icon-box-container">
                 <div class="icon-box">
                     <a href="#" class="uppercase">
-                        <span class="icon-box-text">Digital Comics</span>
-                        <span class="icon-box-image"></span>
+                        <span class="box-text">Digital Comics</span>
+                        <span class="box-image"></span>
                     </a>
                 </div>
                 <div class="icon-box">
                     <a href="#" class="uppercase">
-                        <span class="icon-box-text">Shop DC</span>
-                        <span class="icon-box-image"></span>
+                        <span class="box-text">Shop DC</span>
+                        <span class="box-image"></span>
                     </a>
                 </div>
                 <div class="icon-box">
                     <a href="#" class="uppercase">
-                        <span class="icon-box-text">Comic Shop Locator</span>
-                        <span class="icon-box-image"></span>
+                        <span class="box-text">Comic Shop Locator</span>
+                        <span class="box-image"></span>
                     </a>
                 </div>
                 <div class="icon-box">
                     <a href="#" class="uppercase">
-                        <span class="icon-box-text">Subscriptions</span>
-                        <span class="icon-box-image"></span>
+                        <span class="box-text">Subscriptions</span>
+                        <span class="box-image"></span>
                     </a>
                 </div>
             </div>
