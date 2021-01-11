@@ -381,6 +381,7 @@ template {
 
 body {
   font-family: "Open Sans", sans-serif;
+  font-size: 14px;
 }
 
 h1,
@@ -541,40 +542,38 @@ a {
 }
 
 #series .card-container .card .card-title span {
-  font-size: 14px;
   font-weight: 600;
 }
 
-#comic-thumb {
+#thumb {
   background-color: #1482f9;
 }
 
-#comic-thumb .thumb-container {
+#thumb .thumb-container {
   position: relative;
   padding: 50px 0;
 }
 
-#comic-thumb .thumb-container .thumb-wrapper {
+#thumb .thumb-container .thumb-wrapper {
   position: absolute;
   bottom: 20px;
   border: 1px solid #ffffff;
 }
 
-#comic-thumb .thumb-container .thumb-wrapper span {
+#thumb .thumb-container .thumb-wrapper span {
   position: absolute;
   color: #ffffff;
   font-weight: 600;
-  font-size: 14px;
   padding: 3px;
 }
 
-#comic-thumb .thumb-container .thumb-wrapper span.type {
+#thumb .thumb-container .thumb-wrapper span.type {
   background-color: #235ea3;
   top: 0;
   left: 0;
 }
 
-#comic-thumb .thumb-container .thumb-wrapper span.gallery {
+#thumb .thumb-container .thumb-wrapper span.gallery {
   background-color: #47aada;
   bottom: 0;
   left: 0;
@@ -582,8 +581,12 @@ a {
   text-align: center;
 }
 
-#comic-thumb .thumb-container .thumb-wrapper img {
+#thumb .thumb-container .thumb-wrapper img {
   display: block;
+}
+
+#info {
+  padding-bottom: 100px;
 }
 
 #info .comic-info {
@@ -641,6 +644,145 @@ a {
   margin-left: 15px;
   float: left;
   text-align: right;
+}
+
+#details {
+  background-color: #f6f6f6;
+  border-top: 1px solid #ebebeb;
+  border-bottom: 1px solid #ebebeb;
+  padding: 25px 0;
+}
+
+#details .talent,
+#details .specs {
+  float: left;
+  width: calc(50% - 10px);
+}
+
+#details .talent h2,
+#details .specs h2 {
+  color: #133f5e;
+}
+
+#details .talent ul,
+#details .specs ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#details .talent ul li,
+#details .specs ul li {
+  display: flex;
+  border-top: 1px solid #e3e3e3;
+  padding: 10px 0;
+  font-weight: 600;
+}
+
+#details .talent ul li:last-child,
+#details .specs ul li:last-child {
+  border-bottom: 1px solid #ebebeb;
+}
+
+#details .talent ul li span:first-child,
+#details .specs ul li span:first-child {
+  min-width: calc(100% / 3);
+  max-width: calc(100% / 3);
+  flex-grow: 1;
+  color: #133f5e;
+}
+
+#details .talent ul li span:last-child,
+#details .specs ul li span:last-child {
+  flex-grow: 2;
+}
+
+#details .talent ul li a,
+#details .specs ul li a {
+  color: #1482f9;
+}
+
+#details .talent {
+  margin-right: 10px;
+}
+
+#details .specs {
+  margin-left: 10px;
+}
+
+#pane-shop {
+  background-color: #F6F6F6;
+  border-top: 1px solid #ebebeb;
+  border-bottom: 1px solid #ebebeb;
+}
+
+#pane-shop .icon-box-container {
+  display: flex;
+}
+
+#pane-shop .icon-box-container .icon-box {
+  border-left: 1px solid #ebebeb;
+  width: 254px;
+  flex-grow: 1;
+  padding: 10px;
+}
+
+#pane-shop .icon-box-container .icon-box:hover {
+  background-color: #ebebeb;
+}
+
+#pane-shop .icon-box-container .icon-box a {
+  color: #959595;
+}
+
+#pane-shop .icon-box-container .icon-box:last-child {
+  border-right: 1px solid #ebebeb;
+}
+
+#pane-shop .icon-box-container .icon-box a {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  color: #959595;
+  font-family: "Open Sans Condensed", sans-serif;
+}
+
+#pane-shop .icon-box-container .icon-box .icon-box-image {
+  background-image: url("/images/cta-icons.png");
+  display: inline-block;
+  width: 37px;
+  height: 37px;
+}
+
+#pane-shop .icon-box-container .icon-box:nth-child(1) .icon-box-image {
+  background-position: 0px 0;
+}
+
+#pane-shop .icon-box-container .icon-box:nth-child(1):hover .icon-box-image {
+  background-position: 0px 37px;
+}
+
+#pane-shop .icon-box-container .icon-box:nth-child(2) .icon-box-image {
+  background-position: 37px 0;
+}
+
+#pane-shop .icon-box-container .icon-box:nth-child(2):hover .icon-box-image {
+  background-position: 37px 37px;
+}
+
+#pane-shop .icon-box-container .icon-box:nth-child(3) .icon-box-image {
+  background-position: 74px 0;
+}
+
+#pane-shop .icon-box-container .icon-box:nth-child(3):hover .icon-box-image {
+  background-position: 74px 37px;
+}
+
+#pane-shop .icon-box-container .icon-box:nth-child(4) .icon-box-image {
+  background-position: 111px 0;
+}
+
+#pane-shop .icon-box-container .icon-box:nth-child(4):hover .icon-box-image {
+  background-position: 111px 37px;
 }
 
 .footer-top {
